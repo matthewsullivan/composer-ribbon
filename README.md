@@ -1,32 +1,35 @@
 # \<composer-ribbon\>
 
+`composer-ribbon` is a ribbon to display composer, author or contributer information. The ribbon accepts and image, name, url, and social icons.
 
+Basic Example:
 
-## Install the Polymer-CLI
-
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your element locally.
-
-## Viewing Your Element
-
-```
-$ polymer serve
+```html
+<composer-ribbon name='Matthew Sullivan'></composer-ribbon>
 ```
 
-## Running Tests
+Advanced Example:
 
+```html
+<composer-ribbon colour='#E65100' height='60px'; name='Matthew Sullivan' image='https://tinyurl.com/yczquxhc' url="https://www.matthewsullivan.media/" social='[{"icon":"instagram", "link":"https://www.instagram.com/matthewjamesthefirst/"},{"icon":"linkedin", "link":"https://www.linkedin.com/in/matthew-sullivan/"}]'></composer-ribbon>
 ```
-$ polymer test
-```
 
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+### Styling
 
+The following custom properties available on composer-ribbon:
 
-### Available classes
-- .size16 (default size is 24px)
-- .size48
-- .size72
-- .colorize
-- .invert
+| Custom property | Description | Default / Usage |
+| --- | --- | --- |
+| `name` | The composer name that will be displayed | `Composer Name` |
+| `image` | A path to an image of the composer | `../assets/img/defualt-icon.png` |
+| `url` | A url to link out to when the composer name is clicked | `#` |
+| `social` | A JSON style array that contains two keys. 1). the icon to be use. 2). The url to navigate to when the icon is clicked | `{[{"icon":"instagram", "link":"https://www.instagram.com/matthewjamesthefirst/"},{"icon":"linkedin", "link":"https://www.linkedin.com/in/matthew-sullivan/"}]}` |
+| `colour` | The colour of the composer-ribbon | `#55555` |
+| `height` | The height of the composer-ribbon | `40px` |
+
+### Available Style Updates
+- colour
+- height
 
 ### Available icons
 - twitter
