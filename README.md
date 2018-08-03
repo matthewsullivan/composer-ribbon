@@ -10,6 +10,14 @@
 ### Demo
 [Check out the demo](https://matthewsullivan.github.io/composer-ribbon/demo/)
 
+### Installing
+
+bower install matthewsullivan/composer-ribbon --save
+
+### Linking
+```html
+<link rel="import" href="./bower_components/composer-ribbon/composer-ribbon.html">
+```
 
 Basic Example:
 
