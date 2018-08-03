@@ -5,8 +5,8 @@
 
 ### Preview
 
-![alt text](https://github.com/matthewsullivan/composer-ribbon/tree/master/assets/img/ribbon-preview-01.png)
-![alt text](https://github.com/matthewsullivan/composer-ribbon/tree/master/assets/img/ribbon-preview-02.png)
+![alt text](https://github.com/matthewsullivan/composer-ribbon/blob/master/assets/img/ribbon-preview-01.png)
+![alt text](https://github.com/matthewsullivan/composer-ribbon/blob/master/assets/img/ribbon-preview-02.png)
 
 Basic Example:
 
