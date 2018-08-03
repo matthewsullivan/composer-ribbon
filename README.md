@@ -1,6 +1,6 @@
 # \<composer-ribbon\>
 
-`composer-ribbon` is a ribbon to display composer, author or contributer information. The ribbon accepts and image, name, url, and social icons.
+`composer-ribbon` is a ribbon to display composer, author or contributer information. The ribbon accepts an image, name, url, and social icons.
 
 Basic Example:
 
@@ -31,7 +31,7 @@ The following custom properties available on composer-ribbon:
 - colour
 - height
 
-### Available icons
+### Available Social Icons
 - twitter
 - github
 - facebook

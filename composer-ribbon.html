@@ -29,15 +29,19 @@
          font-size: calc(8px + 1vh);
          box-sizing: border-box;
          padding-left: 10px;
-         padding-right: 10px;   
-         line-height: var(--ribbon-height);
+         padding-right: 10px;
+         line-height: var(--ribbon-height); 
+         overflow-x: scroll;
+         overflow-y: hidden;
+         white-space: nowrap;
         }
         .ribbon-composer{
           float: left;
+          display: inline-block;    
         }    
        .ribbon-social{
-         display: inline;
-         float: left;
+         display: inline-block;
+        
          box-sizing: border-box;
          padding: 4px;   
        }
@@ -78,6 +82,10 @@
        a.before:hover:before,a.after:hover:after{
          width:100%;
        }
+       .no-link{
+         pointer-events: none;
+         cursor: default;
+        }    
        ul{
          list-style-type: none;
          margin: 0;
@@ -92,7 +100,7 @@
         <div class="ribbon-image" style="background-image: url({{image}})"></div>
         <div class="ribbon-container">
             <div class="ribbon-composer">
-                <a href="{{url}}" class="composer-title after" target="_blank">{{name}}</a>
+                <a href="{{url}}" id="ribbonUrl" class="composer-title after" target="_blank">{{name}}</a>
             </div>
             <div class="ribbon-social">
                 <ul>
@@ -188,11 +196,20 @@
         };
       }
       ready() {
+          super.ready();
+          
           this.updateStyles({
               '--ribbon-colour': this.colour,
               '--ribbon-height': this.height
            });
-          super.ready();
+          
+          if(this.url == "#"){
+              
+              var ribbonUrl = this.$.ribbonUrl;
+              
+              ribbonUrl.classList.add("no-link");
+              
+          }
       }
     }
     window.customElements.define(ComposerRibbon.is, ComposerRibbon);
