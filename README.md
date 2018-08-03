@@ -7,6 +7,9 @@
 <img src="https://github.com/matthewsullivan/composer-ribbon/blob/master/assets/img/ribbon-preview-01.png" width="251" height="55">
 <img src="https://github.com/matthewsullivan/composer-ribbon/blob/master/assets/img/ribbon-preview-02.png" width="269" height="76">
 
+### Demo
+[Check out the demo:](https://matthewsullivan.github.io/composer-ribbon/demo/)
+
 
 Basic Example:
 
