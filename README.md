@@ -1,5 +1,7 @@
 # Polymer 2.0 Element \<composer-ribbon\>
 
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/matthewsullivan/composer-ribbon)
+
 `composer-ribbon` is a ribbon to display composer, author or contributor information. The ribbon accepts an image, name, url, and social icons.
 
 
@@ -20,11 +22,7 @@
 ```
 -->
 ```html
-<composer-ribbon name='Matthew Sullivan' 
-                           image='https://tinyurl.com/yczquxhc'
-                           url="https://www.matthewsullivan.media/"
-                           social='[{"icon":"instagram", "link":"https://www.instagram.com/matthewjamesthefirst/"},
-                                   {"icon":"linkedin", "link":"https://www.linkedin.com/in/matthew-sullivan/"}]'></composer-ribbon>
+<composer-ribbon name='Matthew Sullivan' image='https://tinyurl.com/yczquxhc' url="https://www.matthewsullivan.media/" social='[{"icon":"instagram", "link":"https://www.instagram.com/matthewjamesthefirst/"},{"icon":"linkedin", "link":"https://www.linkedin.com/in/matthew-sullivan/"}]'></composer-ribbon>
 ```
 
 ### Installing
