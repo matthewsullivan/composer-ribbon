@@ -1,4 +1,4 @@
-# \<composer-ribbon\> Polymer 2.0 Element
+# Polymer 2.0 Element \<composer-ribbon\>
 
 `composer-ribbon` is a ribbon to display composer, author or contributor information. The ribbon accepts an image, name, url, and social icons.
 
@@ -8,7 +8,7 @@
 <img src="https://github.com/matthewsullivan/composer-ribbon/blob/master/assets/img/ribbon-preview-02.png" width="269" height="76">
 
 ### Demo
-[Check out the demo:](https://matthewsullivan.github.io/composer-ribbon/demo/)
+[Check out the demo](https://matthewsullivan.github.io/composer-ribbon/demo/)
 
 
 Basic Example:
