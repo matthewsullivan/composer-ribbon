@@ -4,15 +4,15 @@
 
 
 ### Preview
-<img src="https://github.com/matthewsullivan/composer-ribbon/blob/develop/assets/img/ribbon-preview-01.png" width="251" height="55">
-<img src="https://github.com/matthewsullivan/composer-ribbon/blob/develop/assets/img/ribbon-preview-02.png" width="269" height="76">
+<img src="https://tinyurl.com/y7hdoobb" width="251" height="55">
+<img src="https://tinyurl.com/yd9zjutl" width="269" height="76">
 
 ### Demo
-[Check out the demo](https://matthewsullivan.github.io/composer-ribbon/demo/)
+[Check out the demo](https://www.matthewsullivan.media/web-components/composer-ribbon/demo/)
 
 ### Installing
 
-bower install matthewsullivan/composer-ribbon --save
+bower install --save matthewsullivan/composer-ribbon
 
 ### Linking
 ```html
