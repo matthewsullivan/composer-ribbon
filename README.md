@@ -7,16 +7,13 @@
 <img src="https://tinyurl.com/y7hdoobb" width="251" height="55">
 <img src="https://tinyurl.com/yd9zjutl" width="269" height="76">
 
-### Demo
-[Check out the demo](https://www.matthewsullivan.media/web-components/composer-ribbon/demo/)
-
 ### Installing
 
 bower install --save matthewsullivan/composer-ribbon
 
 ### Linking
 ```html
-<link rel="import" href="./bower_components/composer-ribbon/composer-ribbon.html">
+<link rel="import" href="../composer-ribbon/composer-ribbon.html">
 ```
 
 Basic Example:
