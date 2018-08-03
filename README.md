@@ -4,9 +4,9 @@
 
 
 ### Preview
+<img src="https://github.com/matthewsullivan/composer-ribbon/blob/master/assets/img/ribbon-preview-01.png" width="251" height="55">
+<img src="https://github.com/matthewsullivan/composer-ribbon/blob/master/assets/img/ribbon-preview-02.png" width="269" height="76">
 
-![alt text](https://github.com/matthewsullivan/composer-ribbon/blob/master/assets/img/ribbon-preview-01.png)
-![alt text](https://github.com/matthewsullivan/composer-ribbon/blob/master/assets/img/ribbon-preview-02.png)
 
 Basic Example:
 
