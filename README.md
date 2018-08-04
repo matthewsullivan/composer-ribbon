@@ -9,22 +9,6 @@
 <img src="https://tinyurl.com/y7hdoobb" width="251" height="55">
 <img src="https://tinyurl.com/yd9zjutl" width="269" height="76">
 
-### Demo 
-<!---
-```
-<custom-element-demo>
-  <template>
-    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="composer-ribbon.html">
-    <next-code-block></next-code-block>
-  </template>
-</custom-element-demo>
-```
--->
-```html
-<composer-ribbon name='Matthew Sullivan' image='https://tinyurl.com/yczquxhc' url="https://www.matthewsullivan.media/" social='[{"icon":"instagram", "link":"https://www.instagram.com/matthewjamesthefirst/"},{"icon":"linkedin", "link":"https://www.linkedin.com/in/matthew-sullivan/"}]'></composer-ribbon>
-```
-
 ### Installing
 
 bower install --save matthewsullivan/composer-ribbon
