@@ -1,6 +1,7 @@
 # Polymer 2.0 Element \<composer-ribbon\>
 
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/matthewsullivan/composer-ribbon)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 `composer-ribbon` is a ribbon to display composer, author or contributor information. The ribbon accepts an image, name, url, and social icons.
 
@@ -40,20 +41,20 @@ The following custom properties available on composer-ribbon:
 | `image` | A path to an image of the composer | `../assets/img/defualt-icon.png` |
 | `url` | A url to link out to when the composer name is clicked | `#` |
 | `social` | A JSON style array that contains two keys. 1). the icon to be use. 2). The url to navigate to when the icon is clicked | `{[{"icon":"instagram", "link":"https://www.instagram.com/matthewjamesthefirst/"},{"icon":"linkedin", "link":"https://www.linkedin.com/in/matthew-sullivan/"}]}` |
-| `colour` | The colour of the composer-ribbon | `#55555` |
+| `colour` | The colour of the composer-ribbon | `#555555` |
 | `height` | The height of the composer-ribbon | `40px` |
 
 ### Available Style Updates
-- colour
-- height
+• colour
+• height
 
 ### Available Social Icons
-- twitter
-- github
-- facebook
-- instagram
-- linkedin
-- youtube
-- rss
-- vimeo
-- google +
+• twitter
+• github
+• facebook
+• instagram
+• linkedin
+• youtube
+• rss
+• vimeo
+• google +
