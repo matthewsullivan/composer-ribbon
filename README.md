@@ -7,8 +7,11 @@
 
 
 ### Preview
-<img src="https://tinyurl.com/y7hdoobb" width="251" height="55">
-<img src="https://tinyurl.com/yd9zjutl" width="269" height="76">
+<img src="https://tinyurl.com/yceng37x" width="251" height="55">
+<img src="https://tinyurl.com/ya95ncd3" width="269" height="76">
+
+### Live Example
+[I'm an inline-style link](https://matthewsullivan.github.io/composer-ribbon/demo/)
 
 ### Installing
 
@@ -57,4 +60,4 @@ The following custom properties available on composer-ribbon:
 • youtube
 • rss
 • vimeo
-• google +
+• google+
