@@ -11,7 +11,7 @@
 <img src="https://tinyurl.com/ya95ncd3" width="269" height="76">
 
 ### Live Example
-[I'm an inline-style link](https://matthewsullivan.github.io/composer-ribbon/demo/)
+[Live Demo](https://matthewsullivan.github.io/composer-ribbon/demo/)
 
 ### Installing
 
