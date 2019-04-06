@@ -5,6 +5,7 @@ Thumbs.db
 
 # Node and related ecosystem
 build/
+node_modules/
 
 # General
 *.env
