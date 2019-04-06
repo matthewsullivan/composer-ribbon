@@ -4,6 +4,8 @@
     "url": "https://github.com/matthew-sullivan/composer-ribbon/issues"
   },
   "dependencies": {
+    "@polymer/iron-demo-helpers": "^3.1.0",
+    "@polymer/iron-image": "^3.0.1",
     "@polymer/polymer": "^3.0.0",
     "@webcomponents/webcomponentsjs": "^2.0.0"
   },
