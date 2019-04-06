@@ -5,9 +5,10 @@
 ### Demo
 [Check out the demo](https://matthewsullivan.github.io/composer-ribbon/demo/)
 
-### Installing
+### Serving
 
-npm install matthewsullivan/composer-ribbon --save
+`$ npm install`
+`$ polymer serve`
 
 ### Linking
 ```html
