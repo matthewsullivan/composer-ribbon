@@ -1,4 +1,4 @@
-# Polymer 2.0 Element \<composer-ribbon\>
+# Polymer 3.0 Element \<composer-ribbon\>
 
 `composer-ribbon` is a ribbon to display composer, author or contributor information. The ribbon accepts an image, name, url, and social icons.
 
@@ -12,7 +12,7 @@
 
 ### Installing
 
-bower install matthewsullivan/composer-ribbon --save
+npm install matthewsullivan/composer-ribbon --save
 
 ### Linking
 ```html
