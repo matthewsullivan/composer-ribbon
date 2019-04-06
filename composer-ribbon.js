@@ -1,10 +1,12 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 
+import '@polymer/iron-icons/';
 import '@polymer/iron-image/iron-image';
+
+import './assets/img/social-media-icons.js';
 
 /**
  * `composer-ribbon`
- *
  *
  * @customElement
  * @polymer
@@ -17,13 +19,13 @@ class ComposerRibbon extends PolymerElement {
         :host {
           display: inline-block;
           --ribbon-height: 40px;
-          --ribbon-colour: #555555;
+          --ribbon-colour: #555;
         }
 
         .ribbon {
           border: 1px solid var(--ribbon-colour);
           height: var(--ribbon-height);
-          width: auto;
+          @apply --ribbon;
         }
 
         .ribbon__image {
@@ -36,7 +38,7 @@ class ComposerRibbon extends PolymerElement {
         .ribbon__container {
           box-sizing: border-box;
           float: left;
-          font-size: calc(8px + 1vh);
+          font-size: 14px;
           height: var(--ribbon-height);
           line-height: var(--ribbon-height);
           overflow-x: scroll;
@@ -52,22 +54,16 @@ class ComposerRibbon extends PolymerElement {
           float: left;
         }
 
-        .ribbon__social {
-          box-sizing: border-box;
-          display: inline-block;
-          padding: 4px;
-        }
-
-        .ribbon__title {
+        .ribbon__link {
           color: var(--ribbon-colour);
           position: relative;
           text-decoration: none;
         }
 
-        .ribbon__title:after {
+        .ribbon__link:after {
           backface-visibility: hidden;
           background: var(--ribbon-colour);
-          bottom: -0.25em;
+          bottom: -0.45em;
           content: '';
           height: 1px;
           width: 0;
@@ -79,18 +75,24 @@ class ComposerRibbon extends PolymerElement {
           -webkit-transform: translateX(-50%);
         }
 
-        .ribbon__title:hover:after {
+        .ribbon__link:hover:after {
           width: 100%;
         }
 
-        .ribbon__title--disabled {
+        .ribbon__link--disabled {
           cursor: default;
           pointer-events: none;
         }
 
-        .ribbon__icons {
-          display: inline;
-          margin-left: 4px;
+        .ribbon__social {
+          box-sizing: border-box;
+          display: inline-block;
+          margin-left: 8px;
+        }
+
+        .ribbon__icon {
+          margin-top: -2px;
+          --iron-icon-width: 18px;
         }
       </style>
 
@@ -98,17 +100,17 @@ class ComposerRibbon extends PolymerElement {
         <iron-image
           class="ribbon__image"
           sizing="contain"
-          src="{{image}}"
+          src="[[image]]"
         ></iron-image>
 
         <div class="ribbon__container">
           <div class="ribbon__composer">
             <a
-              class="ribbon__title"
-              href="{{url}}"
+              class="ribbon__link"
+              href="[[url]]"
               id="ribbonUrl"
               target="_blank"
-              >{{name}}</a
+              >[[name]]</a
             >
           </div>
 
@@ -116,15 +118,15 @@ class ComposerRibbon extends PolymerElement {
             <template
               as="social"
               class="ribbon__icons"
-              items="{{social}}"
+              items="[[social]]"
               is="dom-repeat"
             >
-              <a class="ribbon__title" href="{{social.link}}" target="_blank">
-                <!-- <social-media-icons
-                  color="{{colour}}"
-                  icon="{{social.icon}}"
-                  size="18"
-                ></social-media-icons> -->
+              <a class="ribbon__link" href="{{social.link}}" target="_blank">
+                <iron-icon
+                  class="ribbon__icon"
+                  color="[[colour]]"
+                  icon="social-media:[[social.icon]]"
+                ></iron-icon>
               </a>
             </template>
           </div>
@@ -187,7 +189,7 @@ class ComposerRibbon extends PolymerElement {
       return;
     }
 
-    this.$.ribbonUrl.classList.add('ribbon__title--disabled');
+    this.$.ribbonUrl.classList.add('ribbon__link--disabled');
   }
 }
 window.customElements.define(ComposerRibbon.is, ComposerRibbon);

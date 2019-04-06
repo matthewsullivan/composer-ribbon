@@ -11,9 +11,7 @@
     <script type="module" src="../node_modules/@polymer/iron-demo-helpers/demo-pages-shared-styles.js"></script>
     <script type="module" src="../node_modules/@polymer/iron-demo-helpers/demo-snippet.js"></script>
     <script type="module" src="../composer-ribbon.js"></script>
-      
-    <!-- Favicons
-    ================================================== -->
+
     <link rel="apple-touch-icon" sizes="57x57" href="../assets/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../assets/favicon/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-touch-icon-72x72.png">
@@ -45,7 +43,8 @@
       $_documentContainer.innerHTML = 
           `<custom-style>
             <style is="custom-style" include="demo-pages-shared-styles"></style>
-          </custom-style>`;
+          </custom-style>`
+      ;
 
       document.body.appendChild($_documentContainer.content);
     </script>
@@ -68,6 +67,7 @@
             <li>Custom Composer Url</li>
             <li>Custom Composer Image</li>
             <li>Custom Composer Social Media Icons</li>
+            <li>Style the ribbon as you please with the --ribbon mixin</li>
           </ul>
           <demo-snippet>
             <p>Default</p>
@@ -85,7 +85,7 @@
             <p>Image Attribute</p>
             <template>
               <composer-ribbon
-                image="https://tinyurl.com/yczquxhc"
+                image="https://picsum.photos/300/300?image=685"
                 name="Matthew Sullivan"
               ></composer-ribbon>
             </template>
@@ -94,7 +94,7 @@
             <p>Url Attribute</p>
             <template>
               <composer-ribbon
-                image="http://tinyurl.com/ybxs6rrg"
+                image="https://picsum.photos/300/300?image=685"
                 name="Matthew Sullivan"
                 url="https://www.matthewsullivan.media/"
               ></composer-ribbon>
@@ -104,7 +104,7 @@
             <p>Social Attribute</p>
             <template>
               <composer-ribbon
-                image="http://tinyurl.com/ybxs6rrg"
+                image="https://picsum.photos/300/300?image=1012"
                 name="Matthew Sullivan"
                 social='[
                   {
@@ -131,7 +131,7 @@
             <template>
               <composer-ribbon
                 colour="#101426"
-                image="http://tinyurl.com/ybxs6rrg"
+                image="https://picsum.photos/300/300?image=1012"
                 name="Matthew Sullivan"
                 social='[
                   {
@@ -153,7 +153,7 @@
               <composer-ribbon
                 colour="#101426"
                 height="60px"
-                image="http://tinyurl.com/ybxs6rrg"
+                image="https://picsum.photos/300/300?image=1012"
                 name="Matthew Sullivan"
                 social='[
                   {
