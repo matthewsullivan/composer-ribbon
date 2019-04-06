@@ -2,9 +2,6 @@
 
 `composer-ribbon` is a ribbon to display composer, author or contributor information. The ribbon accepts an image, name, url, and social icons.
 
-### Demo
-[Check out the demo](https://matthewsullivan.github.io/composer-ribbon/demo/)
-
 ### Serving
 
 `$ npm install`
@@ -29,7 +26,7 @@ Advanced Example:
 
 ### Styling
 
-The following custom properties available on composer-ribbon:
+The following custom properties ar available:
 
 | Custom property | Description | Default / Usage |
 | --- | --- | --- |
