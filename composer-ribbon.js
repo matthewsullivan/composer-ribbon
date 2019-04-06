@@ -151,7 +151,7 @@ class ComposerRibbon extends PolymerElement {
       },
       image: {
         type: String,
-        value: '../assets/img/default-icon.png',
+        value: '../assets/icons/default-icon.png',
       },
       name: {
         type: String,
