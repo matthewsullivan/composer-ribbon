@@ -40,8 +40,8 @@ The following custom properties available on composer-ribbon:
 | `name` | The composer name that will be displayed | `Composer Name` |
 | `image` | A path to an image of the composer | `../assets/img/defualt-icon.png` |
 | `url` | A url to link out to when the composer name is clicked | `#` |
-| `social` | A JSON style array that contains two keys. 1). the icon to be use. 2). The url to navigate to when the icon is clicked | `{[{"icon":"instagram", "link":"https://www.instagram.com/matthewjamesthefirst/"},{"icon":"linkedin", "link":"https://www.linkedin.com/in/matthew-sullivan/"}]}` |
-| `colour` | The colour of the composer-ribbon | `#55555` |
+| `social` | A JSON style array that contains two keys. 1). the icon to be used. 2). The url to navigate to when the icon is clicked | `{[{"icon":"instagram", "link":"https://www.instagram.com/matthewjamesthefirst/"},{"icon":"linkedin", "link":"https://www.linkedin.com/in/matthew-sullivan/"}]}` |
+| `colour` | The colour of the composer-ribbon | `#555` |
 | `height` | The height of the composer-ribbon | `40px` |
 
 ### Available Style Updates
