@@ -7,11 +7,6 @@
 `$ npm install`
 `$ polymer serve`
 
-### Linking
-```html
-<link rel="import" href="./bower_components/composer-ribbon/composer-ribbon.html">
-```
-
 Basic Example:
 
 ```html
