@@ -26,7 +26,7 @@ Advanced Example:
 
 ### Styling
 
-The following custom properties ar available:
+The following custom properties are available:
 
 | Custom property | Description | Default / Usage |
 | --- | --- | --- |
