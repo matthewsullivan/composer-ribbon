@@ -3,7 +3,7 @@ import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import '@polymer/iron-icons/';
 import '@polymer/iron-image/iron-image';
 
-import './assets/img/social-media-icons.js';
+import './assets/icons/social-media-icons.js';
 
 /**
  * `composer-ribbon`
