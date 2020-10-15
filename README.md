@@ -16,7 +16,15 @@ Basic Example:
 Advanced Example:
 
 ```html
-<composer-ribbon colour='#E65100' height='60px'; name='Matthew Sullivan' image='https://tinyurl.com/yczquxhc' url="https://www.matthewsullivan.media/" social='[{"icon":"github", "link":"https://www.github.com/matthew-sullivan/"},{"icon":"linkedin", "link":"https://www.linkedin.com/in/matthew-sullivan/"}]'></composer-ribbon>
+<composer-ribbon 
+  colour='#E65100' 
+  height='60px';
+  image='https://tinyurl.com/yczquxhc' 
+  name='Matthew Sullivan'
+  social='[{"icon":"github", "link":"https://www.github.com/matthew-sullivan/"},{"icon":"linkedin", "link":"https://www.linkedin.com/in/matthew-sullivan/"}]'
+  url="https://www.matthewsullivan.media/"
+> 
+</composer-ribbon>
 ```
 
 ### Styling
